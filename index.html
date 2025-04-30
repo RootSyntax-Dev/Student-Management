@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced Student Management System</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Student Management System</h1>
+
+      <!-- Statistics Cards -->
+      <div class="stats-cards">
+        <div class="stat-card">
+          <div class="stat-value" id="total-students">0</div>
+          <div class="stat-label">Total Students</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" id="cs-students">0</div>
+          <div class="stat-label">Computer Science</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" id="ee-students">0</div>
+          <div class="stat-label">Electrical Engg</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" id="mech-students">0</div>
+          <div class="stat-label">Mechanical Engg</div>
+        </div>
+      </div>
+
+      <div class="header-section">
+        <button id="add-student-btn">+ Add New Student</button>
+
+        <div class="search-box">
+          <input
+            type="text"
+            id="search-input"
+            placeholder="Search by name..."
+          />
+          <button id="search-btn">Search</button>
+          <button id="reset-search">Reset</button>
+        </div>
+      </div>
+
+      <!-- Add Student Form (hidden by default) -->
+      <div class="add-student-form" id="add-student-form">
+        <h3>Add New Student</h3>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" required />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="mobile">Mobile Number</label>
+            <input type="tel" id="mobile" required />
+          </div>
+          <div class="form-group">
+            <label for="branch">Branch</label>
+            <select id="branch" required>
+              <option value="">Select Branch</option>
+              <option value="Computer Science">Computer Science</option>
+              <option value="Electrical Engineering">
+                Electrical Engineering
+              </option>
+              <option value="Mechanical Engineering">
+                Mechanical Engineering
+              </option>
+              <option value="Civil Engineering">Civil Engineering</option>
+              <option value="Electronics">Electronics</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="course">Course</label>
+            <select id="course" required>
+              <option value="">Select Course</option>
+              <option value="B.Tech">B.Tech</option>
+              <option value="M.Tech">M.Tech</option>
+              <option value="B.Sc">B.Sc</option>
+              <option value="M.Sc">M.Sc</option>
+              <option value="PhD">PhD</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="batch">Batch</label>
+            <input
+              type="text"
+              id="batch"
+              placeholder="e.g. 2021-2025"
+              required
+            />
+          </div>
+        </div>
+        <div class="form-row">
+          <button id="save-student">Save Student</button>
+          <button id="cancel-add">Cancel</button>
+        </div>
+      </div>
+
+      <!-- Filter Section -->
+      <div class="filter-section">
+        <h3>Filter Students</h3>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="filter-branch">By Branch</label>
+            <select id="filter-branch">
+              <option value="">All Branches</option>
+              <option value="Computer Science">Computer Science</option>
+              <option value="Electrical Engineering">
+                Electrical Engineering
+              </option>
+              <option value="Mechanical Engineering">
+                Mechanical Engineering
+              </option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="filter-course">By Course</label>
+            <select id="filter-course">
+              <option value="">All Courses</option>
+              <option value="B.Tech">B.Tech</option>
+              <option value="M.Tech">M.Tech</option>
+              <option value="B.Sc">B.Sc</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="filter-batch">By Batch</label>
+            <input type="text" id="filter-batch" placeholder="e.g. 2021" />
+          </div>
+          <div class="form-group">
+            <button id="apply-filter">Apply Filter</button>
+            <button id="reset-filter">Reset</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Student List -->
+      <div class="student-list">
+        <h2>Student List</h2>
+        <div id="students-container">
+          <!-- Student cards will be dynamically inserted here -->
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
