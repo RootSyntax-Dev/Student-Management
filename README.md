@@ -113,6 +113,7 @@ Event handlers update data and re-render UI
 Statistics update automatically
 
 File Structure:
+
 student-management-system/
 ├── index.html       # Main HTML file
 ├── styles.css       # All CSS styles
