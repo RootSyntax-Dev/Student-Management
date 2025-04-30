@@ -112,6 +112,18 @@ Event handlers update data and re-render UI
 
 Statistics update automatically
 
+Installation and Setup
+Local Development
+Clone the repository:
+
+bash
+git clone https://github.com/yourusername/student-management-system.git
+Navigate to project directory:
+
+bash
+cd student-management-system
+Open index.html in a web browser
+
 File Structure:
 
 student-management-system/
