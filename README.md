@@ -3,18 +3,17 @@
 A modern web-based application to manage student records efficiently.
 The system allows users to add, edit, delete, search, and filter student information through a clean and responsive interface.
 
----
 
 ## ✨ Features
 
-### 📝 Student Management
+## 📝 Student Management
 
 * ➕ Add new students with validation
 * ✏️ Edit existing student details
 * 🗑️ Delete students with confirmation
 * 👁️ View all students in a card-based layout
 
-### 🔍 Search & Filtering
+## 🔍 Search & Filtering
 
 * 🔎 Real-time search by student name
 * 🎓 Filter by branch (CSE, EE, etc.)
@@ -22,20 +21,19 @@ The system allows users to add, edit, delete, search, and filter student informa
 * 📅 Filter by batch year
 * ⚡ Multiple filters applied simultaneously
 
-### 📊 Dashboard Statistics
+## 📊 Dashboard Statistics
 
 * 📈 Total student count
 * 🧮 Branch-wise statistics
 * 🔄 Automatically updates when data changes
 
-### 🎨 User Interface
+## 🎨 User Interface
 
 * 📱 Fully responsive design
 * 🧾 Card-based student display
 * ✨ Smooth hover effects
 * 🧩 Clean and intuitive layout
 
----
 
 ## 🚀 Technologies Used
 
@@ -43,7 +41,6 @@ The system allows users to add, edit, delete, search, and filter student informa
 * **CSS3** — Styling, layout, Flexbox & Grid
 * **JavaScript (ES6)** — Logic, DOM manipulation, interactivity
 
----
 
 ## 🧠 How It Works
 
@@ -61,7 +58,7 @@ The application stores student data in a JavaScript array of objects:
 }
 ```
 
-### 🔑 Key Functions
+## 🔑 Key Functions
 
 * `renderStudents()` — Displays all student cards
 * `saveStudent()` — Adds or updates student data
@@ -69,7 +66,6 @@ The application stores student data in a JavaScript array of objects:
 * `applyFilters()` — Applies multiple filters
 * `updateStats()` — Updates dashboard counters
 
----
 
 ## ▶️ How to Run
 
@@ -86,7 +82,6 @@ cd student-management-system
   OR
 * Run using **Live Server** in VS Code
 
----
 
 ## 📁 Project Structure
 
@@ -97,7 +92,6 @@ student-management-system/
 └── script.js       # JavaScript logic
 ```
 
----
 
 ## 🔮 Future Enhancements
 
@@ -107,12 +101,10 @@ student-management-system/
 * 📑 Pagination for large datasets
 * 🎯 Advanced analytics dashboard
 
----
 
 ## 👨‍💻 Author
 
 **RootSyntax-Dev**
 
----
-
+##
 ⭐ If you found this project helpful, consider giving it a star!
