@@ -4,7 +4,7 @@ A modern web-based application to manage student records efficiently.
 The system allows users to add, edit, delete, search, and filter student information through a clean and responsive interface.
 
 
-###✨ Features:
+### ✨ Features:
 
 ## 📝 Student Management
 
