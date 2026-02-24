@@ -111,7 +111,7 @@ student-management-system/
 
 ## 👨‍💻 Author
 
-**Vinay Shah**
+**Vinay Shah** |
 Computer Science (AI/ML) Student
 
 ---
