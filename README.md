@@ -111,8 +111,7 @@ student-management-system/
 
 ## 👨‍💻 Author
 
-**Vinay Shah** |
-Computer Science (AI/ML) Student
+**RootSyntax-Dev**
 
 ---
 
